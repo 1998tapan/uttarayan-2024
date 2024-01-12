@@ -23,6 +23,7 @@ body {
     height: 80%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 10;
+    overflow: hidden;
     border-radius: 10px;
     color: #fff;
     font-size: 3rem;
