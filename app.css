@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
+    font-family: 'Raleway', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,6 +24,10 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 10;
     border-radius: 10px;
+    color: #fff;
+    font-size: 3rem;
+    padding: 1em;
+    text-align: center;
 }
 
 .carousel {
@@ -36,5 +47,12 @@ body {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@media(max-width:900px) {
+    .overlay {
+        font-size: 10vw;
+        font-size: 2.2rem;
     }
 }
