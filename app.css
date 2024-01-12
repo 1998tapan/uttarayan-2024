@@ -23,7 +23,6 @@ body {
     height: 80%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 10;
-    overflow: hidden;
     border-radius: 10px;
     color: #fff;
     font-size: 3rem;
@@ -34,6 +33,7 @@ body {
 .carousel {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
